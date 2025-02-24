@@ -1,4 +1,79 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* Created by: Your Name
+* Created on: Feb 23, 2025
+* This CSS file defines the style for the Alan Turing tribute page
 */
+
+body {
+  background-color: rgb(255 230 255);
+  /* Soft pinkish background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: rgb(38 40 145);
+  /* Dark blue background */
+  color: hsl(0, 0%, 100%);
+  /* White text */
+  padding: 40px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  background-color: rgb(255 255 255);
+  /* Lavender background for the section */
+}
+
+p {
+  background-color: #667de4;
+  /* Soft blue background for paragraphs */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #333;
+  /* Dark gray for headings */
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+blockquote {
+  background-color: rgb(254 218 255);
+  /* Soft pink background for quotes */
+  color: hsl(0, 0%, 0%);
+  /* Black text color */
+  padding: 10px;
+  border-left: 5px solid #5e61df;
+  /* Blue left border */
+  font-style: italic;
+  font-size: 1.1em;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #f7caf7;
+  /* Light pink footer background */
+  color: #fff;
+  /* White text in the footer */
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #5e61df;
+  /* Blue text for footer links */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  /* Underline effect when hovering over the link */
+}
